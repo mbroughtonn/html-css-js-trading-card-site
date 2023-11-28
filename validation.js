@@ -1,10 +1,3 @@
-/********************
-    
-    Project 4 Javascript
-    Name: Matt Broughton
-    Date: 04/25/23
-
-*********************/
 function validateForm() {
     var name = document.getElementById("name").value.trim();
     var phone = document.getElementById("phone").value.trim();
@@ -30,4 +23,3 @@ function validateForm() {
 
     return valid;
 }
-
